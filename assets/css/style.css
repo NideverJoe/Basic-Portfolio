@@ -29,38 +29,124 @@ h2 {
     padding-bottom: 5px
 }
 
-.clearfix {
-    clear: both;
-}
-    
 ul {
     color: #777777;
-    width: 100px;
     font-family: Arial, Helvetica, sans-serif;
-    float: right;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 50px 0px;
 }
 
 li a {
-    display: block inline;
     color: #777777;
     padding: 8px 16px;
     text-decoration: none;
     text-align: center;
+    float: right;
+    display: inline
   }
+
+  .clearfix {
+    clear: both;
+}
 
 .AboutMe {
     margin: 10px 0px;
     padding: 5px 15px;
     background-color: #ffffff;
+    height: auto;
+}
+
+.Form {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    height: auto;
+}
+
+.Portfolio {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    height: auto;
+}
+
+.container {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    height: auto;
+}
+
+.headshot {
+    float: left;
+    margin: 5px
 }
 
 .biog {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
-    word-wrap: normal
+    word-wrap: normal;
+    line-height: 24px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+input {
+    width: 926px;
+}
+
+textarea {
+    width: 926px;
+    height: 400px;
+}
+
+.pbox {
+    width:250px;
+    height:250px;
+    margin:10px;
+    float: left;
+    position: relative;
+}
+
+.ptitle{
+    color: white;
+    background: cadetblue;
+    text-align: center;
+    font size: 16px;
+    padding: 10px 0;
+    /* position: absolute; */
+    bottom: 20px;
+    width: 250px;
+    margin: 10px;
+}
+
+.hangman {
+    background-image: url(../images/hangman.jpg)
+}
+
+.rpg {
+    background-image: url(../images/rpg.png)
+}
+
+.trivia {
+    background-image: url(../images/trivia.jpg)
+}
+
+.rutgers {
+    background-image: url(../images/rutgers.jpg)
+}
+
+.rock {
+    background-image: url(../images/rock.png)
 }
 
 footer {
