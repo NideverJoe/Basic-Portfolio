@@ -1,8 +1,74 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #777;
-    background-color: #777;
     width: 960px;
     height: 100vh;
     font-size: 18px;
     margin: auto;
+    background-image:url("../images/bgimage.png")
+}
+
+.header {
+    background: #ffffff;;
+    border-bottom: solid 1px #cccccc;
+}
+
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: #cccccc;
+    width: 225px;
+    padding: 15px;
+    float: left;
+}
+
+h2 {
+    color: #4aaaa5;
+    clear: both;
+    border-bottom: solid 3px #cccccc;
+    padding-bottom: 5px
+}
+
+.clearfix {
+    clear: both;
+}
+    
+ul {
+    color: #777777;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block inline;
+    color: #777777;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+.AboutMe {
+    margin: 10px 0px;
+    padding: 5px 15px;
+    background-color: #ffffff;
+}
+
+.biog {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: normal
+}
+
+footer {
+    background: #666666;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: white;
+}
